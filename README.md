@@ -162,9 +162,6 @@ This project integrates GraphDB with a React frontend and includes the process o
 •	Cleaning data using OntoRefine.
 •	Querying SPARQL endpoints and visualizing data dynamically.
 
-### Changes made to the overall design after Deliverable 2 submission
-Updated Use Case 3: Analyzing Impact of Police Presence on Crime Reduction. The original use case was on analyzing police presence using arrest data as a proxy for police interventions. However, upon further analysis, it was found that the data being represented was repetitive, leading to redundant insights.
-Use latest Case 3, features a richer ontology visualized to map interrelations of Crime, Location, Time, and Police Presence. The various mappings shown in the refactored solution provide a better view of how police interventions impinge on specific places, times, and types of crimes, represented more effectively in the updated approach.
 
 
 _____________________________________________________________________________________________________________________
