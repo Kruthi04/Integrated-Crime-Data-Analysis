@@ -1,0 +1,340 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13/"
+     xml:base="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#comparedFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#comparedFor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#city"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crm_cd"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crimeCity -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crimeCity">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#dr_no"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#city"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasDescription -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crm_cd"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crm_cd_desc"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasLatitudeDimension -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasLatitudeDimension">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#lat"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasLongitudeDimension -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasLongitudeDimension">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#lon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#impactedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#impactedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crm_cd"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#arrest"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#linkedTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#linkedTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#linkedToCrimeCode"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crm_cd"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#dr_no"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#linkedToCrimeCode -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#linkedToCrimeCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#dr_no"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crm_cd"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#occurredOn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#occurredOn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#dr_no"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#year"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#occursAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#occursAt">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#dr_no"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#dr_no"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#city"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasArrestStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasArrestStatus">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#arrest"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasCrimeCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasCrimeCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crm_cd"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasCrimeDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasCrimeDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crm_cd_desc"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasCrimeNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasCrimeNumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#dr_no"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasLatitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasLatitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#lat"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasLongitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasLongitude">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#lon"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#hasName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#city"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#occuredInTheYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#occuredInTheYear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#year"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#occurredOnDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#occurredOnDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#date"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#dr_no"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#arrest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#arrest"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#city -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#city"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crm_cd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crm_cd"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crm_cd_desc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#crm_cd_desc"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#dr_no -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#dr_no"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#lat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#lat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#lon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#lon"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#premis_desc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#premis_desc"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#vict_age -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#vict_age"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#vict_descent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#vict_descent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#vict_sex -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#vict_sex"/>
+    
+
+
+    <!-- http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#year -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/kruthi/ontologies/2024/11/untitled-ontology-13#year"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
